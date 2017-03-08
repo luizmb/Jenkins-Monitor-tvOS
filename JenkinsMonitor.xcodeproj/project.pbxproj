@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0108FD8E1E5627C00010FA4D /* Build+MonitorServiceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0108FD8D1E5627C00010FA4D /* Build+MonitorServiceParser.swift */; };
+		0108FD901E5627FE0010FA4D /* MonitorResult+MonitorServiceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0108FD8F1E5627FE0010FA4D /* MonitorResult+MonitorServiceParser.swift */; };
+		0108FD921E5628260010FA4D /* Job+MonitorServiceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0108FD911E5628260010FA4D /* Job+MonitorServiceParser.swift */; };
+		0108FD941E5628660010FA4D /* JobColor.swift in Resources */ = {isa = PBXBuildFile; fileRef = 0108FD931E5628660010FA4D /* JobColor.swift */; };
+		0108FD951E56289C0010FA4D /* JobColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0108FD931E5628660010FA4D /* JobColor.swift */; };
+		0108FD971E56290E0010FA4D /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0108FD961E56290E0010FA4D /* Job.swift */; };
+		0108FD991E5629440010FA4D /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0108FD981E5629440010FA4D /* Build.swift */; };
+		0108FD9B1E562B640010FA4D /* MonitorServiceDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0108FD9A1E562B640010FA4D /* MonitorServiceDataSource.swift */; };
+		014DE1DD1E522CF500734D50 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014DE1DC1E522CF500734D50 /* Alamofire.framework */; };
+		014DE1E01E5232F100734D50 /* MonitorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DE1DF1E5232F100734D50 /* MonitorResult.swift */; };
+		014DE1E21E523B1800734D50 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DE1E11E523B1800734D50 /* MainViewController.swift */; };
+		014DE1E41E5249DD00734D50 /* JobStatusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DE1E31E5249DD00734D50 /* JobStatusCollectionViewCell.swift */; };
+		014DE1E61E525ED600734D50 /* NavigationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014DE1E51E525ED600734D50 /* NavigationPage.swift */; };
+		014EFB2C1E5229BA008222C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EFB2B1E5229BA008222C9 /* AppDelegate.swift */; };
+		014EFB2E1E5229BA008222C9 /* MonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EFB2D1E5229BA008222C9 /* MonitorViewController.swift */; };
+		014EFB301E5229BA008222C9 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EFB2F1E5229BA008222C9 /* ConfigViewController.swift */; };
+		014EFB331E5229BA008222C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014EFB311E5229BA008222C9 /* Main.storyboard */; };
+		014EFB351E5229BA008222C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014EFB341E5229BA008222C9 /* Assets.xcassets */; };
+		019D52011E7032E20098679A /* EditMonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019D52001E7032E20098679A /* EditMonitorViewController.swift */; };
+		01B96D631E574B9F00BC6FBB /* DashboardListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B96D621E574B9F00BC6FBB /* DashboardListDataSource.swift */; };
+		01B96D651E574D1A00BC6FBB /* MonitorDashboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B96D641E574D1A00BC6FBB /* MonitorDashboardService.swift */; };
+		01B96D671E5752B500BC6FBB /* DashboardRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B96D661E5752B500BC6FBB /* DashboardRowCell.swift */; };
+		01BD90BE1E54AE8D000DABF9 /* MonitorDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BD90BD1E54AE8D000DABF9 /* MonitorDashboard.swift */; };
+		01BD90C01E54CBE6000DABF9 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BD90BF1E54CBE6000DABF9 /* DateExtension.swift */; };
+		01BD90C21E54D316000DABF9 /* MonitorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BD90C11E54D316000DABF9 /* MonitorService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0108FD8D1E5627C00010FA4D /* Build+MonitorServiceParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Build+MonitorServiceParser.swift"; sourceTree = "<group>"; };
+		0108FD8F1E5627FE0010FA4D /* MonitorResult+MonitorServiceParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MonitorResult+MonitorServiceParser.swift"; sourceTree = "<group>"; };
+		0108FD911E5628260010FA4D /* Job+MonitorServiceParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Job+MonitorServiceParser.swift"; sourceTree = "<group>"; };
+		0108FD931E5628660010FA4D /* JobColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobColor.swift; sourceTree = "<group>"; };
+		0108FD961E56290E0010FA4D /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		0108FD981E5629440010FA4D /* Build.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
+		0108FD9A1E562B640010FA4D /* MonitorServiceDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorServiceDataSource.swift; sourceTree = "<group>"; };
+		014DE1DC1E522CF500734D50 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
+		014DE1DF1E5232F100734D50 /* MonitorResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorResult.swift; sourceTree = "<group>"; };
+		014DE1E11E523B1800734D50 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		014DE1E31E5249DD00734D50 /* JobStatusCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobStatusCollectionViewCell.swift; sourceTree = "<group>"; };
+		014DE1E51E525ED600734D50 /* NavigationPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationPage.swift; path = JenkinsMonitor/Navigation/NavigationPage.swift; sourceTree = SOURCE_ROOT; };
+		014EFB281E5229BA008222C9 /* JenkinsMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		014EFB2B1E5229BA008222C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		014EFB2D1E5229BA008222C9 /* MonitorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorViewController.swift; sourceTree = "<group>"; };
+		014EFB2F1E5229BA008222C9 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		014EFB321E5229BA008222C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		014EFB341E5229BA008222C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		014EFB361E5229BA008222C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019D52001E7032E20098679A /* EditMonitorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMonitorViewController.swift; sourceTree = "<group>"; };
+		01B96D621E574B9F00BC6FBB /* DashboardListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardListDataSource.swift; sourceTree = "<group>"; };
+		01B96D641E574D1A00BC6FBB /* MonitorDashboardService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorDashboardService.swift; sourceTree = "<group>"; };
+		01B96D661E5752B500BC6FBB /* DashboardRowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardRowCell.swift; sourceTree = "<group>"; };
+		01BD90BD1E54AE8D000DABF9 /* MonitorDashboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorDashboard.swift; sourceTree = "<group>"; };
+		01BD90BF1E54CBE6000DABF9 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		01BD90C11E54D316000DABF9 /* MonitorService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitorService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		014EFB251E5229BA008222C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014DE1DD1E522CF500734D50 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014DE1DB1E522CF400734D50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				014DE1DC1E522CF500734D50 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		014EFB1F1E5229BA008222C9 = {
+			isa = PBXGroup;
+			children = (
+				014EFB2A1E5229BA008222C9 /* JenkinsMonitor */,
+				014EFB291E5229BA008222C9 /* Products */,
+				014DE1DB1E522CF400734D50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		014EFB291E5229BA008222C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				014EFB281E5229BA008222C9 /* JenkinsMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		014EFB2A1E5229BA008222C9 /* JenkinsMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				01F2DC271E5624A10091255B /* Bootstrap */,
+				01F2DC251E5624590091255B /* Controller */,
+				01F2DC281E5625050091255B /* FoundationEx */,
+				01F2DC231E5624450091255B /* Model */,
+				01F2DC291E56255A0091255B /* Navigation */,
+				01F2DC261E5624670091255B /* Service */,
+				01F2DC241E56244D0091255B /* View */,
+			);
+			path = JenkinsMonitor;
+			sourceTree = "<group>";
+		};
+		01F2DC231E5624450091255B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				014DE1DF1E5232F100734D50 /* MonitorResult.swift */,
+				0108FD961E56290E0010FA4D /* Job.swift */,
+				0108FD931E5628660010FA4D /* JobColor.swift */,
+				0108FD981E5629440010FA4D /* Build.swift */,
+				01BD90BD1E54AE8D000DABF9 /* MonitorDashboard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01F2DC241E56244D0091255B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				014EFB311E5229BA008222C9 /* Main.storyboard */,
+				014DE1E31E5249DD00734D50 /* JobStatusCollectionViewCell.swift */,
+				01B96D661E5752B500BC6FBB /* DashboardRowCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		01F2DC251E5624590091255B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				014DE1E11E523B1800734D50 /* MainViewController.swift */,
+				014EFB2D1E5229BA008222C9 /* MonitorViewController.swift */,
+				014EFB2F1E5229BA008222C9 /* ConfigViewController.swift */,
+				019D52001E7032E20098679A /* EditMonitorViewController.swift */,
+				0108FD9A1E562B640010FA4D /* MonitorServiceDataSource.swift */,
+				01B96D621E574B9F00BC6FBB /* DashboardListDataSource.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		01F2DC261E5624670091255B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				01BD90C11E54D316000DABF9 /* MonitorService.swift */,
+				0108FD8D1E5627C00010FA4D /* Build+MonitorServiceParser.swift */,
+				0108FD8F1E5627FE0010FA4D /* MonitorResult+MonitorServiceParser.swift */,
+				0108FD911E5628260010FA4D /* Job+MonitorServiceParser.swift */,
+				01B96D641E574D1A00BC6FBB /* MonitorDashboardService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		01F2DC271E5624A10091255B /* Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				014EFB2B1E5229BA008222C9 /* AppDelegate.swift */,
+				014EFB341E5229BA008222C9 /* Assets.xcassets */,
+				014EFB361E5229BA008222C9 /* Info.plist */,
+			);
+			path = Bootstrap;
+			sourceTree = "<group>";
+		};
+		01F2DC281E5625050091255B /* FoundationEx */ = {
+			isa = PBXGroup;
+			children = (
+				01BD90BF1E54CBE6000DABF9 /* DateExtension.swift */,
+			);
+			path = FoundationEx;
+			sourceTree = "<group>";
+		};
+		01F2DC291E56255A0091255B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				014DE1E51E525ED600734D50 /* NavigationPage.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		014EFB271E5229BA008222C9 /* JenkinsMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014EFB391E5229BA008222C9 /* Build configuration list for PBXNativeTarget "JenkinsMonitor" */;
+			buildPhases = (
+				014EFB241E5229BA008222C9 /* Sources */,
+				014EFB251E5229BA008222C9 /* Frameworks */,
+				014EFB261E5229BA008222C9 /* Resources */,
+				014DE1DE1E522D1D00734D50 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JenkinsMonitor;
+			productName = JenkinsMonitor;
+			productReference = 014EFB281E5229BA008222C9 /* JenkinsMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		014EFB201E5229BA008222C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HERE;
+				TargetAttributes = {
+					014EFB271E5229BA008222C9 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7BK8NL3DYL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 014EFB231E5229BA008222C9 /* Build configuration list for PBXProject "JenkinsMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 014EFB1F1E5229BA008222C9;
+			productRefGroup = 014EFB291E5229BA008222C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				014EFB271E5229BA008222C9 /* JenkinsMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		014EFB261E5229BA008222C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014EFB351E5229BA008222C9 /* Assets.xcassets in Resources */,
+				014EFB331E5229BA008222C9 /* Main.storyboard in Resources */,
+				0108FD941E5628660010FA4D /* JobColor.swift in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		014DE1DE1E522D1D00734D50 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		014EFB241E5229BA008222C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0108FD951E56289C0010FA4D /* JobColor.swift in Sources */,
+				01B96D631E574B9F00BC6FBB /* DashboardListDataSource.swift in Sources */,
+				01BD90C21E54D316000DABF9 /* MonitorService.swift in Sources */,
+				014EFB301E5229BA008222C9 /* ConfigViewController.swift in Sources */,
+				014DE1E01E5232F100734D50 /* MonitorResult.swift in Sources */,
+				01B96D651E574D1A00BC6FBB /* MonitorDashboardService.swift in Sources */,
+				0108FD971E56290E0010FA4D /* Job.swift in Sources */,
+				0108FD921E5628260010FA4D /* Job+MonitorServiceParser.swift in Sources */,
+				019D52011E7032E20098679A /* EditMonitorViewController.swift in Sources */,
+				0108FD991E5629440010FA4D /* Build.swift in Sources */,
+				0108FD901E5627FE0010FA4D /* MonitorResult+MonitorServiceParser.swift in Sources */,
+				014EFB2C1E5229BA008222C9 /* AppDelegate.swift in Sources */,
+				014EFB2E1E5229BA008222C9 /* MonitorViewController.swift in Sources */,
+				01BD90C01E54CBE6000DABF9 /* DateExtension.swift in Sources */,
+				014DE1E41E5249DD00734D50 /* JobStatusCollectionViewCell.swift in Sources */,
+				0108FD9B1E562B640010FA4D /* MonitorServiceDataSource.swift in Sources */,
+				0108FD8E1E5627C00010FA4D /* Build+MonitorServiceParser.swift in Sources */,
+				01BD90BE1E54AE8D000DABF9 /* MonitorDashboard.swift in Sources */,
+				01B96D671E5752B500BC6FBB /* DashboardRowCell.swift in Sources */,
+				014DE1E21E523B1800734D50 /* MainViewController.swift in Sources */,
+				014DE1E61E525ED600734D50 /* NavigationPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		014EFB311E5229BA008222C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014EFB321E5229BA008222C9 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		014EFB371E5229BA008222C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		014EFB381E5229BA008222C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		014EFB3A1E5229BA008222C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7BK8NL3DYL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/JenkinsMonitor/Bootstrap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.here.app.JenkinsMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		014EFB3B1E5229BA008222C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7BK8NL3DYL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/JenkinsMonitor/Bootstrap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.here.app.JenkinsMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014EFB231E5229BA008222C9 /* Build configuration list for PBXProject "JenkinsMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014EFB371E5229BA008222C9 /* Debug */,
+				014EFB381E5229BA008222C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014EFB391E5229BA008222C9 /* Build configuration list for PBXNativeTarget "JenkinsMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014EFB3A1E5229BA008222C9 /* Debug */,
+				014EFB3B1E5229BA008222C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 014EFB201E5229BA008222C9 /* Project object */;
+}
